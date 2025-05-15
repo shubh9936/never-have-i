@@ -1,0 +1,39 @@
+.home-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Scoped heading */
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Scoped buttons */
+.home-container button {
+  background-color: white;
+  color: #2ebf91;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home-container button:hover {
+  background-color: #2ebf91;
+  color: white;
+  transform: scale(1.05);
+}
